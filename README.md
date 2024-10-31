@@ -79,3 +79,6 @@
     <p>This command installs the HuggingFace Transformers library, allowing you to utilize its powerful features for natural language processing tasks.</p>
   </li>
 </ol>
+
+<h2>Analysis</h2>
+    <span>All of the analysis i made are inside of the <a href = "https://github.com/valselt/NLP_HuggingFace_Transformers/blob/main/NLP_HuggingFace_Transformers_Muhammad%20Ivan%20Aldorino.ipynb"><code>NLP_HuggingFace_Transformers_Muhammad Ivan Aldorino.ipynb</code></a>. Go Check it Out!</span>
