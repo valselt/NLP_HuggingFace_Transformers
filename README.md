@@ -39,7 +39,7 @@
 
 ## Setup ⚙️
 
-### Locally 🖥️
+### Locally (via Anaconda + Tensorflow) 🖥️[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
 
 1. **Install Anaconda**
 
@@ -57,6 +57,8 @@
 
 4. **Import TensorFlow Configuration**
    - Import the `tensorflow.yaml` file into your new environment to set up the required packages and dependencies.
+
+### Locally via Ananconda + Tensorflow 🖥️
 
 ### Google Colab ☁️
 
