@@ -8,39 +8,61 @@
 
 </div>
 
-<h2> Content Overview 📚 </h2>
+## Content Overview 📚
 
-<ol>
-    <li><strong>Zero-Shot Classification</strong> 🎯
-        <ul>
-            <li>Classifies text into categories without the need for specific training data for those categories.</li>
-        </ul>
-    </li>
-    <li><strong>Text Generation</strong> ✍️
-        <ul>
-            <li>Generates coherent and relevant text based on a given prompt.</li>
-        </ul>
-    </li>
-    <li><strong>Fill-Mask</strong> 📝
-        <ul>
-            <li>Predicts missing words in a sentence, which is useful for text correction and completion.</li>
-        </ul>
-    </li>
-    <li><strong>Named Entity Recognition (NER)</strong> 🔍
-        <ul>
-            <li>Identifies and classifies entities in the text, such as names, organizations, and locations.</li>
-        </ul>
-    </li>
-    <li><strong>Question Answering</strong> ❓
-        <ul>
-            <li>Answers questions based on provided context, enabling information retrieval.</li>
-        </ul>
-    </li>
-    <li><strong>Sentiment Analysis</strong> ❤️
-        <ul>
-            <li>Analyzes text to determine the sentiment expressed, whether positive, negative, or neutral.</li>
-        </ul>
-    </li>
-    <li><strong>Summarization</strong> 📄
-        <ul>
-            <li>Creates a concise summary of longer texts while retaining key information.</li>
+1. **Zero-Shot Classification** 🎯
+
+   - Classifies text into categories without the need for specific training data for those categories.
+
+2. **Text Generation** ✍️
+
+   - Generates coherent and relevant text based on a given prompt.
+
+3. **Fill-Mask** 📝
+
+   - Predicts missing words in a sentence, which is useful for text correction and completion.
+
+4. **Named Entity Recognition (NER)** 🔍
+
+   - Identifies and classifies entities in the text, such as names, organizations, and locations.
+
+5. **Question Answering** ❓
+
+   - Answers questions based on provided context, enabling information retrieval.
+
+6. **Sentiment Analysis** ❤️
+
+   - Analyzes text to determine the sentiment expressed, whether positive, negative, or neutral.
+
+7. **Summarization** 📄
+   - Creates a concise summary of longer texts while retaining key information.
+
+## Setup ⚙️
+
+### Locally 🖥️
+
+1. **Install Anaconda**
+
+   - Download Anaconda from [Anaconda Download](https://www.anaconda.com/download) and install it on your system.
+
+2. **Open Anaconda Navigator**
+
+   - Launch the Anaconda Navigator application.
+
+3. **Create a New Environment**
+
+   - Click on the "Environments" tab on the left sidebar.
+   - Click "Create" at the bottom left.
+   - Name the environment `tensorflow` and choose Python version `3.10.x`.
+
+4. **Import TensorFlow Configuration**
+   - Import the `tensorflow.yaml` file into your new environment to set up the required packages and dependencies.
+
+### Google Colab ☁️
+
+1. **Install Transformers Library**
+   - Run the following command in a cell:
+     ```python
+     !pip install transformers
+     ```
+   - This command installs the HuggingFace Transformers library, allowing you to utilize its powerful features for natural language processing tasks.
