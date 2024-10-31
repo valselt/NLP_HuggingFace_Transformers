@@ -39,7 +39,9 @@
 
 ## Setup ⚙️
 
-### Locally (via Anaconda + Tensorflow) 🖥️[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=anaconda,tensorflow)](github.com/valselt)
+
+### Locally (via Anaconda + Tensorflow)
 
 1. **Install Anaconda**
 
